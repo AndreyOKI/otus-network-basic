@@ -131,3 +131,9 @@ b. Проверка параметров vlan 1:
 ##### Шаг 3. Удаленное управление коммутатором.
 
 ![](https://sun1.userapi.com/sun1-92/s/v1/ig2/DdB67896jxt9dxvB7Y48LCiI0ziOI86_kSZkrWLwLs9B8AfQqlW4NzyRtd8otrzYEg1m2kxKM3Y-UUx46Wga8PzU.jpg?size=629x166&quality=96&type=album)
+
+##### Вопросы для самопроверки.
+ _Зачем необходимо настраивать пароль VTY для коммутатора?_
+ Чтобы проключаться к протоколу Telnet.
+ _Что нужно сделать, чтобы пароли не отправлялись в незашифрованном виде?_
+ Нужно использовать команду **service password encryption.**
