@@ -41,6 +41,7 @@ b. Подключились к терминалу.
 
 ![](https://sun9-east.userapi.com/sun9-76/s/v1/ig2/JGI8bn_o4CQK0BsGljmW_V8SlBCRlFZAlWr5WMJXz3oQGfWkGpMXf_30GwNThSR-_YVvx-d5QD-fd88sLE90P1Kw.jpg?size=636x521&quality=96&type=album)
 ![](https://sun9-east.userapi.com/sun9-34/s/v1/ig2/mkKkVudcR0kCOf0f71N_w_hWmVTkQV74Mjso-r4a7VLIdGZV-PIxkWVTkBT8tLyjHhp5HevdoVbv58s9mTgpSmos.jpg?size=633x497&quality=96&type=album)
+
 b. На коммутаторе имеется 24 интерфейсов FastEthernet, 2 интерфейса GigabitEthernet. 0-4 и 5-15: диапазоны значений, отображаемых в vty-линиях.
 
 с. После ввода команды **show startup-configuration** появляется сообщение **startup-config is not present**, потому что мы не сохраняли никаких конфигураций.
@@ -61,6 +62,7 @@ g. После введение команды **show version**, мы можем 
 Название файла образа системы показано на скрине в самой нижней строчке:
 
 ![](https://sun9-east.userapi.com/sun9-43/s/v1/ig2/vrpFdsJPDTaVMGqRqYHVhE8deG_h6yQxLx61FYWw3ZPO5_kezAUkp0NoyPkkv-1uhwH9RM2PHhApvUPu2IbpWRBk.jpg?size=700x126&quality=96&type=album)
+
 Базовый MAC-адресс на второй строчке сверху:
 
 ![](https://sun1.userapi.com/sun1-95/s/v1/ig2/x25d9w3K_zvs6E7JZCXvdghnhEKLZNi9RK34ueOKKDeNENQhqsaV6m0O19kR4SM2wdffJJEzEgWwEIOW4VUoSz6q.jpg?size=546x318&quality=96&type=album)
@@ -107,7 +109,8 @@ c. Ограничиваем доступ через порт с помощью �
 
 ![](https://sun9-west.userapi.com/sun9-48/s/v1/ig2/2OHdcJwwDzHUYvSGTRETcoYZQPNXOhdVov7VMmbdsBMe_lphlO4GvwCMqtPi4ZUOJe1SQrd7Jihqxftc3D2-zeEC.jpg?size=588x325&quality=96&type=album)
 
-**_Для чего нужна команда login? _**
+**_Для чего нужна команда login?_**
+
 Чтобы удаленно подключить доступ Telnet.
 
 ##### Шаг 2. Настройка IP-адреса на компьютере.
