@@ -50,7 +50,7 @@
 
 #### Часть 2. изучение таблицы MAC-адресов коммутатора.
 
-##### Шаг 1. Запишите MAC-адреса сетевых устрйоств.
+##### Шаг 1. Запишите MAC-адреса сетевых устройств.
 
 а. Вводим к командную строку **ipconfig /all**.
 
@@ -65,4 +65,12 @@ b. Вводим команду команду **show interface f0/1** через
 Таким же способом узнаем через терминал PC-B, чтобы узнать MAC-адрес S2:
 
 ![](https://sun9-east.userapi.com/sun9-33/s/v1/ig2/iOmKLtixj1sILSwJKqugmMD0sn-YhwNutkIOmxgKRzNgdIaNTvM3Os9tBLfur2wmgkyVk5QeBcXD8hKtW6wTFLSA.jpg?size=631x500&quality=96&type=album)
+
+##### Шаг 2. Просмотр таблицы MAC-адресов коммутатора.
+
+Мы зашли в привелегированный режим на коммутаторе S2 и ввели команду **show mac address-table**:
+
+![](https://sun1.userapi.com/sun1-28/s/v1/ig2/pI9DsG-GV_REScQ2T7LQQ-axCVCq59pQIrVHBwQAv6zvknphNYa54d5gB6Kl7WdZ9yzFzR9aWaE6hnPks-YYojZY.jpg?size=629x171&quality=96&type=album)
+
+У нас в таблице записан MAC-адрес коммутатора S1.
 
