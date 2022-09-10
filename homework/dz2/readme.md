@@ -65,3 +65,4 @@ b. Вводим команду команду **show interface f0/1** через
 Таким же способом узнаем через терминал PC-B, чтобы узнать MAC-адрес S2:
 
 ![](https://sun9-east.userapi.com/sun9-33/s/v1/ig2/iOmKLtixj1sILSwJKqugmMD0sn-YhwNutkIOmxgKRzNgdIaNTvM3Os9tBLfur2wmgkyVk5QeBcXD8hKtW6wTFLSA.jpg?size=631x500&quality=96&type=album)
+
