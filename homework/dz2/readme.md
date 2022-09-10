@@ -47,3 +47,21 @@
 ![](https://sun1.userapi.com/sun1-30/s/v1/ig2/S7J02VLVJRAPVAa23AVQk928GGEvNE2fDkQmtDZUYawyXcMp6mOaa2UySIrFYoyPvwD6DjJupvuIQomiNJtZN7fS.jpg?size=626x504&quality=96&type=album)
 
 ![](https://sun1.userapi.com/sun1-47/s/v1/ig2/3PN363spiJNpSyoYrx-3ObEWJp-PG7MFDwaWO_2VKUVVaAnou8L-P8JCLE0haRIU4TRXyRHgaZ-8MM3B-xptowAE.jpg?size=632x522&quality=96&type=album)
+
+#### Часть 2. изучение таблицы MAC-адресов коммутатора.
+
+##### Шаг 1. Запишите MAC-адреса сетевых устрйоств.
+
+а. Вводим к командную строку **ipconfig /all**.
+
+MAC-адреса показаны на скриншотах (Physical address):
+
+![](https://sun1.userapi.com/sun1-90/s/v1/ig2/6bOix-Cz-0BxnuQOY2ZfAm7Q7DPBxOGofgdX2uKp94JAgZNeUdY6jsCkfIsjT3ouQJpZOZ2pyItH1vBa-KF7PuXC.jpg?size=691x756&quality=96&type=album)
+
+b. Вводим команду команду **show interface f0/1** через терминал PC-A, чтобы узнать MAC-адрес S1:
+
+![](https://sun1.userapi.com/sun1-13/s/v1/ig2/Bfb4Vyoo46qu-Y7LZcMZXIPj3SCIxdjqLXt6y56-QVjqePhgawJ0AA27YEng99InhE7ZIKpVdYaXIthfJQojnI-s.jpg?size=627x515&quality=96&type=album)
+
+Таким же способом узнаем через терминал PC-B, чтобы узнать MAC-адрес S2:
+
+![](https://sun9-east.userapi.com/sun9-33/s/v1/ig2/iOmKLtixj1sILSwJKqugmMD0sn-YhwNutkIOmxgKRzNgdIaNTvM3Os9tBLfur2wmgkyVk5QeBcXD8hKtW6wTFLSA.jpg?size=631x500&quality=96&type=album)
