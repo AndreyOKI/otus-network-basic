@@ -78,8 +78,22 @@ _Если вы не записали МАС-адреса сетевых устр
 
 В большинстве случаев данная команда позволит определить какой MAC-адрес у устройства, но если два коммутатора соединены друг с другом и один пытается "записать" МАС-адрес устройства, которое присоединено к другому коммутатору.
 
-##### Шаг 2. Очищение таблицы МАс-адресов коммутатора S2 и отображение таблицы MAC-адресов.
+##### Шаг 3. Очищение таблицы МАс-адресов коммутатора S2 и отображение таблицы MAC-адресов.
 
 Команда **clear mac address-table dynamic** очищает динамические адреса из таблицы и после быстрого введения **show mac address-table** мы ничего не увидим.
 
 После того, как мы подождали 10 секунд и ввели заново **show mac address-table** мы увидим снова динамический MAC-адрес.
+
+##### Шаг 4.  С компьютера PC-B отправляем эхо-запросы устройствам в сети и просмотр таблицы МАС-адресов коммутатора.
+
+а. После введения команды **arp -a** в командной строке нам выдало:
+
+![](https://sun1.userapi.com/sun1-15/s/v1/ig2/LqX4JoAeEfpWjvVY7Pz9SvkP4nDjD4NBaUA9dKy_HCpudjrDrPpnBLL3RstFb8dXVQC0BKZISvZv0YE5NQocWLea.jpg?size=655x125&quality=96&type=album)
+
+b. отправляем эхо-запрос на PC-A:
+
+![](https://sun9-east.userapi.com/sun9-21/s/v1/ig2/QUpXFUcJ1Z7WGiySAcD2mQb6t7R7HRLrzlQdTE-OaI-vr09FEzQuUJ0IApAxSCwMcpYqJnTL-K_Iweazj21O-SgN.jpg?size=627x209&quality=96&type=album)
+
+отправялем эхо-запрос на S1 и S2 соответственно: 
+
+![](https://sun9-west.userapi.com/sun9-61/s/v1/ig2/Nl6LQTVP1dN_-GF1iD3YmYOs9PGD92LuIh99sOFAHbQut5MAhF2_w2iqL-Yr6PZ0So2VwMUxUVOY68M8ZQIMMoC7.jpg?size=629x429&quality=96&type=album)
