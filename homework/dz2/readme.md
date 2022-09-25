@@ -98,6 +98,10 @@ b. отправляем эхо-запрос на PC-A:
 
 ![](https://sun9-west.userapi.com/sun9-61/s/v1/ig2/Nl6LQTVP1dN_-GF1iD3YmYOs9PGD92LuIh99sOFAHbQut5MAhF2_w2iqL-Yr6PZ0So2VwMUxUVOY68M8ZQIMMoC7.jpg?size=629x429&quality=96&type=album)
 
-c. через консоль подключаемся в S2 и вводим команду **show mac address-table**:
+c. Через консоль подключаемся в S2 и вводим команду **show mac address-table**:
+
+![](https://sun1.userapi.com/sun1-27/s/v1/ig2/vpDbuuGUxL9g3jdv0v9-bLRsJK-qqqJ9CEBaUkIl9zG_alGVL66ZFeKG_7mThITivg2oW_Geum1YELdnDxbYBEgE.jpg?size=632x168&quality=96&type=album)
+
+После введения команды **arp -a** в командной строке PC-B появляются следующие записи:
 
 ![](https://sun1.userapi.com/sun1-27/s/v1/ig2/vpDbuuGUxL9g3jdv0v9-bLRsJK-qqqJ9CEBaUkIl9zG_alGVL66ZFeKG_7mThITivg2oW_Geum1YELdnDxbYBEgE.jpg?size=632x168&quality=96&type=album)
