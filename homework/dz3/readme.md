@@ -81,3 +81,16 @@ _Почему PC-B получил глобальный префикс маршр
 а. Назначаем ip и локальный адрес.
 
 ![](https://sun9-west.userapi.com/sun9-37/s/v1/ig2/TQERKl3IxzyJfOMCe7fxblYsssq14Q4IKBHs4QbNTzHzRRhVa1AeL1EaJ5xJWudT5VkmShAuf0yhRGh-sq-HhYMx.jpg?size=620x254&quality=96&type=album)
+
+b. проверяем правильность назначения.
+
+![](https://sun9-north.userapi.com/sun9-87/s/v1/ig2/bYCVwooaHInukWbtCjWQSLMzSdg1jTJ1ErdyIXC-ygCFMlNXXypMMptGjVYMersxpjZECVKlALwfmLvJKEqsqFer.jpg?size=619x241&quality=96&type=album)
+
+##### Шаг 4. Назначьте компьютерам статические IPv6-адреса.
+
+a. Настраиваем ip-адреса:
+
+![](https://sun9-west.userapi.com/sun9-4/s/v1/ig2/KmfHPo0nNw1PLIAgAOAstyugwYdMrwemuVxbWzohlNkgfrbtGD4FmgzGzMsEzRaS3mw5Zjm9NFaV2_Y7tiDduL87.jpg?size=691x443&quality=96&type=album)
+
+![](https://sun1.userapi.com/sun1-94/s/v1/ig2/Ad0RIaXh0AHVPwHlHGhmz_QJJ-eaAXgkDBU_Mv0U3A-4xclioCQQFnS6KyM3BMF0la8I2pZB65qzKxEu1YT5DM55.jpg?size=699x449&quality=96&type=album)
+
