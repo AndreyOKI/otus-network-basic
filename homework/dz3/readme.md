@@ -94,3 +94,24 @@ a. Настраиваем ip-адреса:
 
 ![](https://sun1.userapi.com/sun1-94/s/v1/ig2/Ad0RIaXh0AHVPwHlHGhmz_QJJ-eaAXgkDBU_Mv0U3A-4xclioCQQFnS6KyM3BMF0la8I2pZB65qzKxEu1YT5DM55.jpg?size=699x449&quality=96&type=album)
 
+##### Часть 3. Проверка сквозного подключения.
+
+a. С PC-A отправляем эхо-запрос на FE80::1. Это локальный адрес канала, назначенный G0/0/1 на R1.
+
+![](https://sun1.userapi.com/sun1-55/s/v1/ig2/dGhyl7iMGysJNGIgG-sHmmAr4QQd-in-o0LY3AadEvXmoXwajfg3qfCmtQAxCYIHCQkPxQTuZFEAGmh5iQoGtx6X.jpg?size=645x221&quality=96&type=album)
+
+b. Отправляем эхо-запрос на интерфейс управления S1 с PC-A.
+
+![](https://sun1.userapi.com/sun1-26/s/v1/ig2/w-_78hsiGT2giz9Bzk4HoO_w3aqaDmDQ8XlH8hmXyzrEOjWTUpbBtXWe_O3z1xr-UXaGyqFIj_DYTjHnO0gfYtFh.jpg?size=638x201&quality=96&type=album)
+
+c. Вводим команду tracert на PC-A, чтобы проверить наличие сквозного подключения к PC-B.
+
+![](https://sun1.userapi.com/sun1-27/s/v1/ig2/qlTmv7IgxV6L7-54pDYcT2EF3Fk1kFRVR9GUwnnakrp0R6IHhZG2haM0WYaWb9gDpn9BB3GwgTHnoWUhxpqf2N-h.jpg?size=631x127&quality=96&type=album)
+
+d. С PC-B отправляем эхо-запрос на PC-A.
+
+![](https://sun1.userapi.com/sun1-88/s/v1/ig2/atT-YQVB6ePjzvz0uRJuWF62VVzF7Mu1etUvCsJzYq2_lYsN4Zmf5P9PoUhT0FLw0vqmVdf-5L7vgMxOmD0e5Boi.jpg?size=637x213&quality=96&type=album)
+
+e. С PC-B отправляем эхо-запрос на локальный адрес канала G0/0 на R1.
+
+![](https://sun9-north.userapi.com/sun9-86/s/v1/ig2/OenFQ27Viwxw8-7_44mSIS6XUwI2hErm5z0s7ZDzCX_Wkuq2iOpkbCtWHSEb3YOHH_gGKpoB2c8y4kfVWE7ey9QY.jpg?size=644x198&quality=96&type=album)
